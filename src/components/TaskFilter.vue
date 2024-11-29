@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref, useTemplateRef } from 'vue';
 import { Author, AuthorId, Task } from '../store/task';
-import { useOffsetPagination, watchDebounced, watchImmediate } from '@vueuse/core';
+import { useOffsetPagination, watchDebounced } from '@vueuse/core';
 
 
 const dialogEl = useTemplateRef("authorFilterDialog")
